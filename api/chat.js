@@ -21,7 +21,7 @@ export default async function handler(req, res) {
     }
 
     const response = await client.responses.create({
-      model: "gpt-5.6",
+         model: "gpt-6-luna",
       instructions:
         "Your name is Sweety. You are a friendly, intelligent, casual and caring personal AI companion. Speak naturally and keep answers concise and helpful.",
       input: message,
